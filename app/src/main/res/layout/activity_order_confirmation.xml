@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/appbackground">
+
+    <TextView
+        android:id="@+id/orderConfirmationMessage"
+        android:layout_width="295dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:text="Thank you for your order!"
+        android:textSize="40sp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="100dp"
+
+        />
+
+    <Button
+        android:id="@+id/backToShoppingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Shopping"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:padding="15dp"
+
+        android:layout_marginTop="15sp"
+        android:textSize="18sp"/>
+</LinearLayout>
